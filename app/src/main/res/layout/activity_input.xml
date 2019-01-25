@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.feiyang_mt90.InputActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="扫码:"
+            android:textColor="#000"
+            android:textSize="@dimen/dp_18" />
+
+        <TextView
+            android:id="@+id/input_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textColor="#000"
+            android:textSize="@dimen/dp_18" />
+    </LinearLayout>
+
+    <com.github.jdsjlzx.recyclerview.LRecyclerView
+        android:id="@+id/input_lrv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="228dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_shape_login"
+        android:text="导出Excel"
+        android:textColor="#fff"
+        android:textSize="@dimen/dp_18" />
+</LinearLayout>

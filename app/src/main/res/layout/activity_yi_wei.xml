@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.feiyang_mt90.YiWeiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:text="扫码："
+            android:textColor="#000"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/yiwei_scanning_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:textColor="#f00"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="序号：" />
+
+        <TextView
+            android:id="@+id/yiwei_serialNumber_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="设备编号：" />
+
+        <TextView
+            android:id="@+id/yiwei_deviceNumber_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="设备名称：" />
+
+        <TextView
+            android:id="@+id/yiwei_deviceName_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="型号：" />
+
+        <TextView
+            android:id="@+id/yiwei_type_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="机器号：" />
+
+        <TextView
+            android:id="@+id/yiwei_machine_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="数量：" />
+
+        <TextView
+            android:id="@+id/yiwei_quantity_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="单价：" />
+
+        <TextView
+            android:id="@+id/yiwei_danjia_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="购买日期：" />
+
+        <TextView
+            android:id="@+id/yiwei_time_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="使用科室：" />
+
+        <TextView
+            android:id="@+id/yiwei_department_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/RelativeLayout_42dp">
+
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="使用人：" />
+
+        <TextView
+            android:id="@+id/yiwei_users_tv"
+            style="@style/TextView_right_16dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.feiyang_mt90.QRActivity">
+
+   <TextView
+       android:id="@+id/qr_ps_tv"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="按下“扫描键”进行扫码"
+       android:textSize="26dp"
+       android:textColor="#d00"
+       android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/qr_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/qr_btn"
+        android:layout_width="228dp"
+        android:layout_height="42dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_shape_login"
+        android:text="导出Excel"
+        android:textColor="#fff"
+        android:textSize="@dimen/dp_18" />
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.feiyang_mt90.MainActivity">
+    <RelativeLayout
+        android:id="@+id/main_luru_barcode"
+        style="@style/RelativeLayout_56dp">
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="录入序列号"/>
+        <ImageView
+            style="@style/Right_IV" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"
+        />
+    <RelativeLayout
+        android:id="@+id/main_barcode"
+        style="@style/RelativeLayout_56dp">
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="扫描一维码"/>
+        <ImageView
+           style="@style/Right_IV" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"
+        />
+    <RelativeLayout
+        android:id="@+id/main_qr"
+        style="@style/RelativeLayout_56dp">
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="扫描二维码"/>
+        <ImageView
+            style="@style/Right_IV" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"
+        />
+    <RelativeLayout
+        android:id="@+id/main_data"
+        style="@style/RelativeLayout_56dp">
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="导入资料"/>
+        <ImageView
+            style="@style/Right_IV" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"
+        />
+    <RelativeLayout
+        android:id="@+id/delete_dao"
+        style="@style/RelativeLayout_56dp">
+        <TextView
+            style="@style/TextView_lefe_16dp"
+            android:text="清除数据库"/>
+        <ImageView
+            style="@style/Right_IV" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d3d3d3"
+        />
+</LinearLayout>
